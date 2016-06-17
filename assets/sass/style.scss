@@ -1,0 +1,254 @@
+/*
+Theme Name: sydney-child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Description: Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page.
+Version: 1.13
+Template:     sydney
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+Tags: light, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Sydney is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+*/
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic|Satisfy|Oregano:400,400italic);
+/*font-family: 'Lobster Two', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Oregano', cursive;*/
+@import "partials/variables";
+@import "partials/mixins";
+
+html{ 
+	font-size: 100%;
+	body{
+		.btn {
+		  background-color: #ffffff;
+		  background-image: none;
+		  background-position: 50% 50%;
+		  background-size: 100% 100%;
+		  border: 0;
+		  border-radius: 2px;
+		  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+		  color: white;
+		  cursor: pointer;
+		  display: inline-block;
+		  font-size: 14px;
+		  font-weight: 500;
+		  line-height: 20px;
+		  margin-bottom: 0;
+		  max-width: 100%;
+		  padding: 8px 8px;
+		  position: relative;
+		  text-align: center;
+		  text-transform: uppercase;
+		  -webkit-transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		          transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		  -webkit-user-select: none;
+		     -moz-user-select: none;
+		      -ms-user-select: none;
+		          user-select: none;
+		  vertical-align: middle;
+		  white-space: nowrap;
+		}
+		.btn:active, .btn:focus, .btn:hover {
+		  color: white;
+		  outline: 0;
+		  text-decoration: none;
+		}
+		.btn:active, .btn:focus {
+		  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 3px 9px rgba(0, 0, 0, 0.3);
+		}
+		.btn:active {
+		  background-color: #e0e0e0;
+		}
+		.btn[disabled], fieldset[disabled] .btn {
+		  cursor: not-allowed;
+		  opacity: 0.5;
+		}
+		.site-title{font-family: 'Satisfy', cursive;font-size: 3em;}
+		.btn,
+		.btn-default{
+			background-color: $primary-color;
+		}
+		/* Global */
+		h1,h2,h3,h4,h5,h6{font-weight: normal;margin: 0px;}
+		a{
+			color: $primary-color;
+			@include transition_a;
+			&:hover{
+				color: $accent-color;
+			}
+		}
+
+		.card {
+			margin: 3em auto;
+			padding: 2em;
+		  background-color: #ffffff;
+		  border-radius: 2px;
+		  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+		  -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		          transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		  position: relative;
+		}
+		#index-bloc-1{
+			padding: 2em;
+			h3{text-align: center;}
+			p{
+				font-size:1.2em;
+				max-width: 80%;
+				text-align: justify;
+				margin: 2em auto;
+				a{
+					color:$dark-primary-color;
+					padding: 4px;
+					border-radius: 4px;
+					font-style: bold;
+					text-decoration: underline;
+					&:hover{
+						color:$accent-color;
+					}
+				}
+			}
+		}
+		.site-header{
+			background-color: $primary-color;
+		}
+		/* Concernant les posts */
+		#content{
+			padding: 0!important;
+			margin: 0!important;
+			#primary{
+				.post{
+					.post-content{
+						text-align: justify;
+						-webkit-transition: all .4s;
+						-moz-transition: all .4s;
+						transition: all .4s;
+						font-size: 1.3em;
+						&:hover{color:#565656}
+						b,strong,sup{color: $dark-primary-color;font-weight: 600;}
+						em{font-style: italic}
+						h2{color:$accent-color; text-align: center; margin: 1em 0px;}
+					}
+					.post-title{
+						text-align: center;
+						font-size: 3em;
+					}
+					h2.post-title{
+						text-align: center;
+						background-color: white;
+						display: block;
+						line-height: 1.5;
+						padding: .5em;
+						font-family: helvetica;
+						border-radius: 0px;
+					}
+					div.post-content{
+						
+						hr{margin: 5em 0px;border:.1em solid $accent-color;}
+						ul li{
+							padding: 1.5em auto;
+						}
+						
+					}
+				}
+			}
+		}
+		/* FOOTER */
+		.duration{
+			color:$primary-color;
+		}
+		/* EVENTS */
+		.tribe-events-list .tribe-events-event-image+div.tribe-events-content{
+			width: 100%!important;
+		}
+		.tribe-events-list-separator-month{
+			text-transform: uppercase;
+		}
+		/* Vue des events en liste */
+		h2.tribe-events-list-event-title.entry-title.summary{
+			display: inline-block;
+		}
+		.updated.published.time-details{
+			color: $dark-primary-color;
+		}
+		.entry-summary{
+			display: none;
+		}
+		
+		#tribe-bar-form .tribe-bar-submit input[type=submit] {
+		  font-size: .6em;
+		}
+		#tribe-events-content{
+			.tribe-events-event-image{
+				display: none;
+			}
+			a{font-weight: bold}
+			h2.tribe-events-single-event-title.summary.entry-title{
+				text-align: center;
+				margin: 2em auto; 
+			}
+			.tribe-events-list-widget ol li{
+				margin: 1em;
+				color: $light-primary-color;
+				.entry-title a{font-size: .8em;}
+			}
+		}
+
+		/* PAGE VILLES */
+		.page_ville{
+			h1,h2{
+				font-size: 1.5em;
+				text-align:center;
+				margin:1em auto;
+			}
+			img{
+				margin: 0px 1em;
+				padding: 0px .5em;
+				width: 20%;
+			}
+		}
+		/* MENU */
+
+		ul.nav_villes{
+			@include transition_all;
+			li{
+				font-size: 2em;
+				display: inline-block!important;
+				margin: 1em .3em;
+				list-style: none;
+				a{
+					color:$primary-color;
+					&:hover{
+						color: $accent-color;
+					}
+				}
+			}
+		}
+		#menu-menu-general{
+			.menu-item-has-children{
+				color: $dark-primary-color!important;
+			}
+			.site-header.float-header {
+			  background-color: rgba(56, 135, 135, 1);
+			  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+			  -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+			          transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+			}
+			@include transition_all;
+			li a{  text-transform: uppercase;}
+			.menu-item a{
+				&:hover{
+					@include nav-a-hover;
+				}
+			}
+			.sub-menu{
+				background-color: $primary-color;
+			}
+		}
+	}
+}

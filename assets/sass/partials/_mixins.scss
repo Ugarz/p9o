@@ -1,0 +1,16 @@
+@mixin nav-a-hover{
+	color: $accent-color!important;
+	border-bottom: 1px solid $accent-color!important;
+}
+@mixin transition_all{
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+@mixin transition_a{
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}

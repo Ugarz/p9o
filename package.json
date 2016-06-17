@@ -1,0 +1,10 @@
+{
+  "name": "sydney-child",
+  "version": "0.1.0",
+  "description": "Personnal child-theme for the Wordpress theme called Sydney",
+  "main": "inpex.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ugo.arzur@gmail.com"
+}

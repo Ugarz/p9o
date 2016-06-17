@@ -1,0 +1,1 @@
+Ce dossier écrase la boucle du plugin, si vous le supprimez, un fallback sur le style d'origine du plugin opérera.

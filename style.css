@@ -1,0 +1,228 @@
+/*
+Theme Name: sydney-child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Description: Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page.
+Version: 1.13
+Template:     sydney
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+Tags: light, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Sydney is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+*/
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic|Satisfy|Oregano:400,400italic);
+/*font-family: 'Lobster Two', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Oregano', cursive;*/
+html {
+  font-size: 100%; }
+  html body {
+    /* Global */
+    /* Concernant les posts */
+    /* FOOTER */
+    /* EVENTS */
+    /* Vue des events en liste */
+    /* Text full largeur*/
+    /*CSS pour la liste*/
+    /* PAGE VILLES */
+    /* MENU */ }
+    html body .btn {
+      background-color: #ffffff;
+      background-image: none;
+      background-position: 50% 50%;
+      background-size: 100% 100%;
+      border: 0;
+      border-radius: 2px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-bottom: 0;
+      max-width: 100%;
+      padding: 8px 8px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      -webkit-transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      vertical-align: middle;
+      white-space: nowrap; }
+    html body .btn:active, html body .btn:focus, html body .btn:hover {
+      color: white;
+      outline: 0;
+      text-decoration: none; }
+    html body .btn:active, html body .btn:focus {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 3px 9px rgba(0, 0, 0, 0.3); }
+    html body .btn:active {
+      background-color: #e0e0e0; }
+    html body .btn[disabled], html body fieldset[disabled] .btn {
+      cursor: not-allowed;
+      opacity: 0.5; }
+    html body .site-title {
+      font-family: 'Satisfy', cursive;
+      font-size: 3em; }
+    html body .btn,
+    html body .btn-default {
+      background-color: #388787; }
+    html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+      font-weight: normal;
+      margin: 0px; }
+    html body a {
+      color: #388787;
+      -webkit-transition: all .4s;
+      -moz-transition: all .4s;
+      -o-transition: all .4s;
+      transition: all .4s; }
+      html body a:hover {
+        color: #FFC107; }
+    html body .card {
+      margin: 3em auto;
+      padding: 2em;
+      background-color: #ffffff;
+      border-radius: 2px;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+      -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative; }
+    html body #index-bloc-1 {
+      padding: 2em; }
+      html body #index-bloc-1 h3 {
+        text-align: center; }
+      html body #index-bloc-1 p {
+        font-size: 1.2em;
+        max-width: 80%;
+        text-align: justify;
+        margin: 2em auto; }
+        html body #index-bloc-1 p a {
+          color: #286161;
+          padding: 4px;
+          border-radius: 4px;
+          font-style: bold;
+          text-decoration: underline; }
+          html body #index-bloc-1 p a:hover {
+            color: #FFC107; }
+    html body .site-header {
+      background-color: #388787; }
+    html body #content {
+      padding: 0 !important;
+      margin: 0 !important; }
+      html body #content #primary .post .post-content {
+        text-align: justify;
+        -webkit-transition: all .4s;
+        -moz-transition: all .4s;
+        transition: all .4s;
+        font-size: 1.3em; }
+        html body #content #primary .post .post-content:hover {
+          color: #565656; }
+        html body #content #primary .post .post-content b, html body #content #primary .post .post-content strong, html body #content #primary .post .post-content sup {
+          color: #286161;
+          font-weight: 600; }
+        html body #content #primary .post .post-content em {
+          font-style: italic; }
+        html body #content #primary .post .post-content h2 {
+          color: #FFC107;
+          text-align: center;
+          margin: 1em 0px; }
+      html body #content #primary .post .post-title {
+        text-align: center;
+        font-size: 3em; }
+      html body #content #primary .post h2.post-title {
+        text-align: center;
+        background-color: white;
+        display: block;
+        line-height: 1.5;
+        padding: .5em;
+        font-family: helvetica;
+        border-radius: 0px; }
+      html body #content #primary .post div.post-content hr {
+        margin: 5em 0px;
+        border: 0.1em solid #FFC107; }
+      html body #content #primary .post div.post-content ul li {
+        padding: 1.5em auto; }
+    html body .duration {
+      color: #388787; }
+    html body .tribe-events-list-separator-month {
+      text-transform: uppercase; }
+    html body h2.tribe-events-list-event-title.entry-title.summary {
+      display: inline-block; }
+    html body .updated.published.time-details {
+      color: #286161; }
+    html body .entry-summary {
+      display: none; }
+    html body .tribe-events-list .tribe-events-event-image + div.tribe-events-content {
+      width: 100% !important; }
+    html body img.attachment-medium.wp-post-image {
+      display: none; }
+    html body #tribe-bar-form .tribe-bar-submit input[type=submit] {
+      font-size: .6em; }
+    html body a.tribe-event-url {
+      font-size: .8em; }
+    html body #tribe-events-content {
+      /* CSS pour la page full */ }
+      html body #tribe-events-content .tribe-events-event-image {
+        max-width: 35%;
+        float: left;
+        margin: 1em; }
+      html body #tribe-events-content a {
+        font-weight: bold; }
+      html body #tribe-events-content h2.tribe-events-single-event-title.summary.entry-title {
+        text-align: center;
+        margin: 2em auto; }
+      html body #tribe-events-content .tribe-events-list-widget ol li {
+        margin: 1em;
+        color: #4AB3B3; }
+        html body #tribe-events-content .tribe-events-list-widget ol li .entry-title a {
+          font-size: .8em; }
+    html body .page_ville h1, html body .page_ville h2 {
+      font-size: 1.5em;
+      text-align: center;
+      margin: 1em auto; }
+    html body .page_ville img {
+      margin: 0px 1em;
+      padding: 0px .5em;
+      width: 20%; }
+    html body ul.nav_villes {
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out; }
+      html body ul.nav_villes li {
+        font-size: 2em;
+        display: inline-block !important;
+        margin: 1em .3em;
+        list-style: none; }
+        html body ul.nav_villes li a {
+          color: #388787; }
+          html body ul.nav_villes li a:hover {
+            color: #FFC107; }
+    html body #menu-menu-general {
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out; }
+      html body #menu-menu-general .menu-item-has-children {
+        color: #286161 !important; }
+      html body #menu-menu-general .site-header.float-header {
+        background-color: #388787;
+        box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+        -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+      html body #menu-menu-general li a {
+        text-transform: uppercase; }
+      html body #menu-menu-general .menu-item a:hover {
+        color: #FFC107 !important;
+        border-bottom: 1px solid #FFC107 !important; }
+      html body #menu-menu-general .sub-menu {
+        background-color: #388787; }
